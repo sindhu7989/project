@@ -33,7 +33,8 @@ public class AuthController {
          User user = authService.getUserByPhoneNumber(phoneNumber);
          	return ResponseEntity.ok("Login successful");
      }
-     return ResponseEntity.badRequest().body("Invalid OTP");
+     return  something ;
+ResponseEntity.badRequest().body("Invalid OTP");
  }
 }
 
